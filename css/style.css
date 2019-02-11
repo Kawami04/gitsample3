@@ -1,0 +1,117 @@
+body {
+  background-color: #efefef;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+h1, h2, h3{
+  font-size: 20px;
+  width: 550px
+}
+
+h1 {
+    margin: 0 auto 10px auto;
+    width: 300px;
+    text-align:center;
+}
+header {
+    margin-top: 20px;
+  }
+
+  .container {
+    width: 920px;
+    margin: 0 auto 40px auto;
+    background-color:white
+  }
+
+  .header-title-area {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .logo {
+    font-size: 32px;
+  }
+  .text-sub {
+    color: #777;
+  }
+  .header-navigation {
+    width: 100%;
+    background-color: #333;
+    padding: 20px 0;
+  }
+  .header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+
+.header-navigation li {
+  float: left;
+  padding: 10px 20px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-navigation li a {
+  color: #fff;
+  text-decoration: none;
+}
+.left-contents{
+  width: 550px;
+  margin-right: 40px;
+  float:left;
+}
+.right-contents{
+  width:330px;
+  float: left;
+}
+.left-contents:after{
+  clear: both;
+}
+.card-contents:after{
+  clear: both;
+  content: "";
+}
+.right-contents:after{
+  clear: both;
+}
+.imagecss{
+  float:left;
+  width: 200px;
+  height: 200px;
+}
+.m-picture{
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+.m-picture::after{
+  clear: both;
+}
+.infomation{
+  font-size: 20px;
+  border-bottom: 1px ridge silver;
+}
+.m-day{
+  font-size: 12px;
+}
+.m-title {
+  font-size: 15px;
+  color: blue
+}
+.copyright {
+  text-align: center;
+  border-top: 1px ridge silver;
+}
+
+.card-contents {
+  height: 200px;
+}
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
